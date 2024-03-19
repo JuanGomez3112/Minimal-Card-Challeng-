@@ -29,11 +29,11 @@ $gris: #6C727F;
 //-------------------------------------------------------------
 
 
-$shadow: 10px 10px 20px $claro,
--10px -10px 20px $claro;
+$shadow-hover: 16px 16px 80px #e1e1e0,
+-8px -8px 64px $claro;
 
-$shadow-hover: 14px 14px 28px $claro,
--14px -14px 80px $blanco;
+$shadow: 14px 14px 28px #e1e1e0,
+-14px -14px 80px $claro;
 
 // Tipografia
 //-------------------------------------------------------------
@@ -59,7 +59,7 @@ $shadow-hover: 14px 14px 28px $claro,
 .font-tag{
     font-family: "Sora", sans-serif;
     font-size: 0.625rem;
-    font-weight: 600;
+    font-weight: 700;
 }
 
 
@@ -69,7 +69,7 @@ $shadow-hover: 14px 14px 28px $claro,
 body {
     width: 100vw;
     height: 100vh;
-    background: $claro;
+    background: $blanco;
 
 }
 
@@ -94,7 +94,7 @@ body {
 }
 
 .b-r {
-    border-radius: 0.5rem;
+    border-radius: 0.75rem;
 
     &-1 {
     border-radius: 1rem;

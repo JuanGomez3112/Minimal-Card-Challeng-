@@ -27,13 +27,13 @@
 .font-tag {
   font-family: "Sora", sans-serif;
   font-size: 0.625rem;
-  font-weight: 600;
+  font-weight: 700;
 }
 
 body {
   width: 100vw;
   height: 100vh;
-  background: #E5EAF0;
+  background: #FFFFFF;
 }
 
 .flex {
@@ -56,7 +56,7 @@ body {
 }
 
 .b-r {
-  border-radius: 0.5rem;
+  border-radius: 0.75rem;
 }
 .b-r-1 {
   border-radius: 1rem;
@@ -76,20 +76,20 @@ body {
 .contenido .card {
   position: relative;
   overflow: hidden;
-  width: 24rem;
-  box-shadow: 10px 10px 20px #E5EAF0, -10px -10px 20px #E5EAF0;
+  width: 26rem;
+  box-shadow: 14px 14px 28px #e1e1e0, -14px -14px 80px #E5EAF0;
   transition: box-shadow 0.4s ease-in;
 }
 .contenido .card:hover {
-  box-shadow: 14px 14px 28px #E5EAF0, -14px -14px 80px #FFFFFF;
+  box-shadow: 16px 16px 80px #e1e1e0, -8px -8px 64px #E5EAF0;
 }
 .contenido .card .info-card {
   gap: 1rem;
-  padding: 1.5rem;
+  padding: 1rem;
 }
 .contenido .card .info-card .cont-img {
   width: 100%;
-  height: 10rem;
+  height: 9.5rem;
   overflow: hidden;
 }
 .contenido .card .info-card .cont-img img {
