@@ -15,13 +15,13 @@
 .font-main {
   font-family: "Sora", sans-serif;
   font-size: 0.875rem;
-  font-weight: 400;
+  font-weight: 300;
 }
 
 .font-text {
   font-family: "Sora", sans-serif;
   font-size: 0.75rem;
-  font-weight: 400;
+  font-weight: 500;
 }
 
 .font-tag {
@@ -56,10 +56,10 @@ body {
 }
 
 .b-r {
-  border-radius: 1rem;
+  border-radius: 0.5rem;
 }
 .b-r-1 {
-  border-radius: 1.5rem;
+  border-radius: 1rem;
 }
 
 .tags {
@@ -68,7 +68,7 @@ body {
   gap: 0.5rem;
 }
 .tags .tag {
-  padding: 0.5rem 1rem;
+  padding: 0.35rem 1rem;
   color: #883AE1;
   background-color: #E6D6FC;
 }
@@ -76,7 +76,7 @@ body {
 .contenido .card {
   position: relative;
   overflow: hidden;
-  width: 28rem;
+  width: 24rem;
   box-shadow: 10px 10px 20px #E5EAF0, -10px -10px 20px #E5EAF0;
   transition: box-shadow 0.4s ease-in;
 }
@@ -84,12 +84,12 @@ body {
   box-shadow: 14px 14px 28px #E5EAF0, -14px -14px 80px #FFFFFF;
 }
 .contenido .card .info-card {
-  gap: 1.5rem;
+  gap: 1rem;
   padding: 1.5rem;
 }
 .contenido .card .info-card .cont-img {
   width: 100%;
-  height: 16rem;
+  height: 10rem;
   overflow: hidden;
 }
 .contenido .card .info-card .cont-img img {
@@ -107,7 +107,6 @@ body {
 .contenido .card .info-card .text-info p {
   color: #6C727F;
   line-height: 1.25rem;
-  text-align: justify;
 }
 .contenido .card .autor {
   padding: 1.5rem;
