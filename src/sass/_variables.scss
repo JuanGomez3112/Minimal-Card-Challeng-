@@ -1,0 +1,117 @@
+// Importaciones generales  
+//-------------------------------------------------------------
+
+@import url('https://fonts.googleapis.com/css2?family=Sora:wght@100..800&display=swap');
+
+
+// Reset
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Sora", sans-serif;
+}
+
+// Colores
+//-------------------------------------------------------------
+
+
+$lavanda: #E6D6FC;
+$purpura: #883AE1;
+$claro: #E5EAF0;
+$nieve: #FAFAF9;
+$blanco: #FFFFFF;
+$nocturno: #20293A;
+$gris: #6C727F;
+
+// Sombras
+//-------------------------------------------------------------
+
+
+$shadow: 10px 10px 20px $claro,
+-10px -10px 20px $claro;
+
+$shadow-hover: 14px 14px 28px $claro,
+-14px -14px 80px $blanco;
+
+// Tipografia
+//-------------------------------------------------------------
+
+.font-title{
+    font-family: "Sora", sans-serif;
+    font-size: 1.125rem;
+    font-weight: 600;
+}
+
+.font-main{
+    font-family: "Sora", sans-serif;
+    font-size: 0.875rem;
+    font-weight: 400;
+}
+
+.font-text{
+    font-family: "Sora", sans-serif;
+    font-size: 0.75rem;
+    font-weight: 400;
+}
+
+.font-tag{
+    font-family: "Sora", sans-serif;
+    font-size: 0.625rem;
+    font-weight: 600;
+}
+
+
+// Configuraciones generales de la página
+//-------------------------------------------------------------
+
+body {
+    width: 100vw;
+    height: 100vh;
+    background: $claro;
+
+}
+
+.flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+
+    &-columna {
+        flex-direction: column;
+    }
+} 
+
+.contenido {
+    width: 100%;
+    height: 100%;
+}
+
+.card {
+    background-color: $nieve;
+}
+
+.b-r {
+    border-radius: 1rem;
+
+    &-1 {
+    border-radius: 1.5rem;
+
+    }
+}
+
+.tags {
+    width: 100%;
+    justify-content: start;
+    gap: 0.5rem;
+
+
+    .tag{
+        padding: 0.5rem 1rem;
+        color: $purpura;
+        background-color: $lavanda;
+    }
+}
+

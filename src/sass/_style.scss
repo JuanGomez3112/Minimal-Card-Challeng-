@@ -1,0 +1,61 @@
+.contenido {
+    .card {
+        position: relative;
+        overflow: hidden;
+        width: 28rem;
+        box-shadow: $shadow;
+        transition: box-shadow 0.4s ease-in;
+
+        &:hover {
+        box-shadow: $shadow-hover;
+            
+        }
+
+
+        .info-card {
+            gap: 1.5rem;
+            padding: 1.5rem;
+
+
+            .cont-img {
+                width: 100%;
+                height: 16rem;
+                overflow: hidden;
+
+                img {
+                    width: 100%;
+                    height: 100%;
+                    object-fit: cover;
+                }
+            }
+
+            .text-info {
+                justify-content: start;
+                gap: 0.5rem;
+
+                h1 {
+                    color: $nocturno;
+                }
+
+                p {
+                    color: $gris;
+                    line-height: 1.25rem;
+                    text-align: justify;
+                }
+            }
+        }
+
+        .autor {
+            padding: 1.5rem;
+            position: relative;
+            width: 100%;
+            border-top: 1px solid $claro;
+            left: 0;
+
+            h2 {
+                width: 100%;
+                color: $gris;
+            }
+        }
+    }
+}
